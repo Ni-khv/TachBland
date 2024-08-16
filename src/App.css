@@ -1,11 +1,3 @@
-.form {
-  display: grid;
-  grid-template-columns: 450px;
-  grid-gap: 40px;
-  column-width: 40px;
-  margin-top: 390px;
-  margin-left: 500px;
- }
- .button {
-     background-color: green;
+.App{
+    background-color: #000000;
  }
