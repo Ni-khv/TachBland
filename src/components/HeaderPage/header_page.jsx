@@ -1,11 +1,15 @@
 import './header_page.css'
+import logo from './Logo/Logo.png'
+import Button from '../Button/button'
 
 const HeaderPage = () => {
 
     return(
         <div className="header_block">
-        <div className="header_logo"><img src="../image/Logo/Group 8.svg" alt="logo" /></div>
-        </div>
+                <img className='header_page_img' src={logo} alt="logo" />
+                <Button/>
+                
+            </div>
     )
 }
 
