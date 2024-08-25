@@ -1,11 +1,11 @@
 .header_block{
     display: flex;
     justify-content: space-between;
-    height: 200px;
+    height: 92px;
 }
 
-.header_page_img{
-    width: 394px;
-    height: 100px;
+.header_page_logo{
+    width: 297px;
+    height: 84px;
 }
 

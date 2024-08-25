@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import HeaderPage from './components/HeaderPage/header_page';
+import HeaderPage from './components/Header/HeaderPage/header_page';
+import Ordi from './components/Content/ordi';
 
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
     <body>
       <div className="App">
           <HeaderPage/>
+          <Ordi/>
       </div>
     </body>
   );
